@@ -1,0 +1,26 @@
+{
+    "name": "ashokgrg/jp-date-formatter",
+    "description": "a simple japanese date formatter package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ashokgrg\\JpDateFormatter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ashokgrg\\JpDateFormatter\\JpDateFormatterServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "ashokgrg",
+            "email": "ashokgrg11@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
